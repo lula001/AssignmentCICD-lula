@@ -1,0 +1,36 @@
+﻿@using Auckland_Institute_of_Studies.Data;
+@using Microsoft.AspNetCore.Identity;
+
+@inject SignInManager<AppUser> SignInManager
+@inject UserManager<AppUser> UserManager
+
+@model Auckland_Institute_of_Studies.Data.AppUser;
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    @Html.DisplayFor(model => model.FirstName)
+    @Html.DisplayFor(model => model.FirstName)
+    <p>  to SOFT703 Course </p>
+</div>
+
+<br />
+
+<div class="row">
+    <div class="col"></div>
+    <div class="col ml-auto"> Trimester 1, 2023 </div>
+</div>
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
